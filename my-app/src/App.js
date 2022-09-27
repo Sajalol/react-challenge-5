@@ -5,6 +5,7 @@ import NavBarForm from "./components/NavBarForm";
 import Content from "./components/Content";
 import ControlledForm from "./components/ControlledForm";
 import UncontrolledForm from "./components/UncontrolledForm";
+import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
       {/* <NavBarForm /> */}
       {/* <Sidebar /> */}
       {/* <Content /> */}
-      <UncontrolledForm />
+      {/*<UncontrolledForm /> */}
+      <SearchBar />
+
+      
     </div>
   );
 }
